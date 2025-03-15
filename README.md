@@ -22,12 +22,14 @@ By combining **AI-driven insights and Power BI visualization**, this system help
 ```
 📁 real-estate-risk-prediction  
  ├── 📜 data_preprocessing.py        # Cleans and prepares the dataset  
- ├── 📜 high_risk_prediction.py      # Identifies high-risk properties using K-Means  
+ ├── 📜 high_risk_properties.py      # Identifies high-risk properties using K-Means
+ ├── 📜 app.py
+ ├── 📜 eda.py
+ ├── 📜 feature_engineering.py
  ├── 📜 house_price_model.py         # Trains the Random Forest regression model  
  ├── 📜 house_price_predict.py       # Predicts house sale prices for user input  
- ├── 📜 power_bi_dashboard.pbix      # Power BI dashboard for visualization  
- ├── 📄 README.md                    # Project documentation  
- └── 📊 dataset.csv                   # Real estate dataset (sample)
+ ├── 📜 real estate.pbix             # Power BI dashboard for visualization  
+ └── 📊 dataset.csv                  # Real estate dataset (sample)
 ```
 
 ---
@@ -89,12 +91,7 @@ python house_price_predict.py
 
 ---
 
-## **📩 Contact & Contributions**  
-📧 **Your Email:** your.email@example.com  
-🌐 **GitHub:** [Your GitHub Profile](https://github.com/your-username)  
+ 
 
 🤝 Feel free to **fork, contribute, or suggest improvements**! 🚀  
 
----
-
-This **README** is **clear, structured, and professional**—perfect for **GitHub documentation**! Let me know if you'd like any changes. 🚀😊
